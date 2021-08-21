@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+header{
+background-color:yellow;
+text-align:center;
+color: black;
+padding: 10px;
+}
+.tittle{
+font-size: 24px;
+}
+section{
+    color: black;
+    padding: 20px;
+    background-image: url("../img/E2k9SQ9WEAg7CLI.jpg") ;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.formContainer{
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float: right;
+}
+h2{
+    font-size: 16px;
+}
+.mb{
+    margin-bottom: 15px;
+}
+input,select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    color:yellow;
+    background-color:black;
+    font-weight: bold;
+}
+footer{
+    padding: 40px;
+    text-align: center;
+}
+.picture{
+    width: 160px;
+}
+.description{
+    color: white;
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+
+}
+.description p, .description h3{
+    margin-bottom: 20px;
+}
+.description h3{
+    font-size: 24px;
+}
